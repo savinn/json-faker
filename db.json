@@ -1,0 +1,47 @@
+{
+  "products": [],
+  "homepage-slider": [
+  {},{},{},{},{},{},
+  ]
+  "categories": [
+    {
+      "id": 0,
+      "title": "some name",
+      "permalink": "some url"
+    },
+    {},{},{},{},{},{},{}
+  ],
+  "orders": [
+    {
+      "id": 0,
+      "status": "created",
+      "currency": "currency",
+      "payment_information": "information",
+      "shipping_information": "shipping",
+      "customer": {
+        "email": "email",
+        "phone": "phone"
+      },
+      "shipping_adress": {
+        "firstname": "firstname",
+        "lastname": "lastname",
+        "adress": "adress",
+        "city": "city",
+        "zip_code": "zip_code",
+        "country": "country"
+      },
+      "billing_adress": {
+        "firstname": "firstname",
+        "lastname": "lastname",
+        "adress": "adress",
+        "city": "city",
+        "zip_code": "zip_code",
+        "country": "country"
+      },
+      "order_products": {
+        "id": 0,
+        "title": "title"
+      }
+    }
+  ]
+}
