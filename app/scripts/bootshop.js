@@ -6,9 +6,6 @@ $(document).ready(function(){
 	})
 	 $('#featured').carousel({
 	  interval: 4000
-	})
-	$(function() {
-		$('#gallery a').lightBox();
 	});
 	
 	$('.subMenu > a').click(function(e)
@@ -39,20 +36,6 @@ $(document).ready(function(){
 			li.addClass('open');	
 		}
 	});
-	var ul = $('#sidebar > ul');
-	$('#sidebar > a').click(function(e)
-	{
-		e.preventDefault();
-		var sidebar = $('#sidebar');
-		if(sidebar.hasClass('open'))
-		{
-			sidebar.removeClass('open');
-			ul.slideUp(250);
-		} else 
-		{
-			sidebar.addClass('open');
-			ul.slideDown(250);
-		}
-	});
+	
 
 });
