@@ -6,7 +6,7 @@
       "description": "Id ea sunt aute qui ad title aliqua pariatur dolore aliqua.",
       "status": false,
       "price": "$2,660.93",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/1.jpg",
       "color": "blue"
     },
     {
@@ -15,7 +15,7 @@
       "description": "Velit do elit occaecat magna deserunt consequat mollit laborum culpa veniam occaecat.",
       "status": true,
       "price": "$1,702.91",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/2.jpg",
       "color": "green"
     },
     {
@@ -24,7 +24,7 @@
       "description": "Duis consequat sit ex eiusmod sunt eiusmod nisi cillum mollit aliqua.",
       "status": true,
       "price": "$2,536.15",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/3.jpg",
       "color": "blue"
     },
     {
@@ -33,7 +33,7 @@
       "description": "Ut proident amet magna excepteur occaecat veniam nulla sit.",
       "status": true,
       "price": "$2,984.83",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/4.jpg",
       "color": "green"
     },
     {
@@ -42,7 +42,7 @@
       "description": "Ea adipisicing nulla sunt ipsum.",
       "status": true,
       "price": "$3,214.24",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/5.jpg",
       "color": "brown"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Magna excepteur occaecat id in veniam aliqua qui elit do ea consequat.",
       "status": true,
       "price": "$2,832.49",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/6.jpg",
       "color": "brown"
     },
     {
@@ -60,71 +60,70 @@
       "description": "Pariatur enim deserunt adipisicing est duis proident ad minim cupidatat anim deserunt.",
       "status": true,
       "price": "$3,318.21",
-      "picture": "http://placehold.it/32x32",
+      "picture": "images/products/7.jpg",
       "color": "brown"
     }
   ],
   "categories": [
-  {
-    "_id": "5612f81ede7c12c5280252b2",
-    "category": "et fugiat"
-  },
-  {
-    "_id": "5612f81e648f5f0bc1649f6b",
-    "category": "ullamco occaecat"
-  },
-  {
-    "_id": "5612f81ef5dec3eee304a159",
-    "category": "officia minim"
-  },
-  {
-    "_id": "5612f81ee90e1ce3aca14444",
-    "category": "laboris ut"
-  },
-  {
-    "_id": "5612f81e1118ecc03df076ba",
-    "category": "consectetur nostrud"
-  },
-  {
-    "_id": "5612f81e133ed21fd3f8a01a",
-    "category": "tempor proident"
-  },
-  {
-    "_id": "5612f81ee5aadf49fe4b0114",
-    "category": "anim ut"
-  }
-],
-"slider":[
-  {
-    "_id": "5612fb419460cd606bb4d195",
-    "title": "occaecat proident Lorem",
-    "thumbnail_label": "In adipisicing cupidatat ullamco ut ad aliqua velit. Dolor laboris laboris laboris officia veniam est occaecat. Magna nostrud dolore irure pariatur id veniam laboris eu sunt nisi qui consequat proident.",
-    "picture": "http://placehold.it/1170x480"
-  },
-  {
-    "_id": "5612fb41c57ce94e8d9cf40d",
-    "title": "anim qui velit",
-    "thumbnail_label": "Qui nulla id commodo sunt exercitation officia consectetur exercitation elit magna enim. Quis sunt nisi ad magna commodo ullamco labore. Aliquip ad Lorem incididunt occaecat cillum in qui dolor nulla.",
-    "picture": "http://placehold.it/1170x480"
-  },
-  {
-    "_id": "5612fb41bcaecec6e9d4a589",
-    "title": "et adipisicing aliqua",
-    "thumbnail_label": "Qui excepteur aute duis aliquip quis et veniam labore minim culpa. Culpa occaecat aliquip id consequat ea ipsum consequat enim voluptate duis reprehenderit cillum qui velit. Eu id aute excepteur enim quis consectetur do minim deserunt esse irure laboris.",
-    "picture": "http://placehold.it/1170x480"
-  },
-  {
-    "_id": "5612fb41ae5cdcc386e3d11f",
-    "title": "sit id aliquip",
-    "thumbnail_label": "Sunt nulla fugiat in adipisicing consequat mollit aliquip elit cupidatat. Elit exercitation sit fugiat aliquip enim nulla dolor exercitation nostrud nostrud. Est enim sunt dolor deserunt elit.",
-    "picture": "http://placehold.it/1170x480"
-  },
-  {
-    "_id": "5612fb41a6945de1a9389ed1",
-    "title": "adipisicing do id",
-    "thumbnail_label": "Velit ipsum officia sit laborum eiusmod magna consectetur dolore et sit. Eiusmod occaecat do nostrud cillum aute pariatur commodo incididunt. Incididunt est Lorem in laborum adipisicing aute do veniam mollit.",
-    "picture": "http://placehold.it/1170x480"
-  }
-]
+    {
+      "_id": "5612f81ede7c12c5280252b2",
+      "category": "et fugiat"
+    },
+    {
+      "_id": "5612f81e648f5f0bc1649f6b",
+      "category": "ullamco occaecat"
+    },
+    {
+      "_id": "5612f81ef5dec3eee304a159",
+      "category": "officia minim"
+    },
+    {
+      "_id": "5612f81ee90e1ce3aca14444",
+      "category": "laboris ut"
+    },
+    {
+      "_id": "5612f81e1118ecc03df076ba",
+      "category": "consectetur nostrud"
+    },
+    {
+      "_id": "5612f81e133ed21fd3f8a01a",
+      "category": "tempor proident"
+    },
+    {
+      "_id": "5612f81ee5aadf49fe4b0114",
+      "category": "anim ut"
+    }
+  ],
+  "slider": [
+    {
+      "_id": "5612fb419460cd606bb4d195",
+      "title": "occaecat proident Lorem",
+      "thumbnail_label": "In adipisicing cupidatat ullamco ut ad aliqua velit. Dolor laboris laboris laboris officia veniam est occaecat. Magna nostrud dolore irure pariatur id veniam laboris eu sunt nisi qui consequat proident.",
+      "picture": "images/carousel/1.png"
+    },
+    {
+      "_id": "5612fb41c57ce94e8d9cf40d",
+      "title": "anim qui velit",
+      "thumbnail_label": "Qui nulla id commodo sunt exercitation officia consectetur exercitation elit magna enim. Quis sunt nisi ad magna commodo ullamco labore. Aliquip ad Lorem incididunt occaecat cillum in qui dolor nulla.",
+      "picture": "images/carousel/2.png"
+    },
+    {
+      "_id": "5612fb41bcaecec6e9d4a589",
+      "title": "et adipisicing aliqua",
+      "thumbnail_label": "Qui excepteur aute duis aliquip quis et veniam labore minim culpa. Culpa occaecat aliquip id consequat ea ipsum consequat enim voluptate duis reprehenderit cillum qui velit. Eu id aute excepteur enim quis consectetur do minim deserunt esse irure laboris.",
+      "picture": "images/carousel/3.png"
+    },
+    {
+      "_id": "5612fb41ae5cdcc386e3d11f",
+      "title": "sit id aliquip",
+      "thumbnail_label": "Sunt nulla fugiat in adipisicing consequat mollit aliquip elit cupidatat. Elit exercitation sit fugiat aliquip enim nulla dolor exercitation nostrud nostrud. Est enim sunt dolor deserunt elit.",
+      "picture": "images/carousel/4.png"
+    },
+    {
+      "_id": "5612fb41a6945de1a9389ed1",
+      "title": "adipisicing do id",
+      "thumbnail_label": "Velit ipsum officia sit laborum eiusmod magna consectetur dolore et sit. Eiusmod occaecat do nostrud cillum aute pariatur commodo incididunt. Incididunt est Lorem in laborum adipisicing aute do veniam mollit.",
+      "picture": "images/carousel/5.png"
+    }
+  ]
 }
-  
