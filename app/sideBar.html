@@ -1,13 +1,11 @@
 <div id="sidebar" class="span3">
 		<ul class="nav nav-tabs nav-stacked" >
-			<li class="subMenu" ng-repeat="categories in myCategories"><a>{{categories.category}}</a>
-				<ul>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
+			<li class="subMenu" ng-repeat="item in myCategories">
+				<a ng-click="item.showSubCategories = !item.showSubCategories">{{item.category}}</a>
+				
+				<ul ng-show="item.showSubCategories" class="category-sub-menu">
+				<li><a href="products.html"><i class="icon-chevron-right"></i>{{item.category.sub-category.name}} </a></li>
 				</ul>
-			</li>
 		</ul>	
 		<br/>
 			<div class="thumbnail">

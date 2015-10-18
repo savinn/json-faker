@@ -7,7 +7,8 @@
       "status": false,
       "price": "$2,660.93",
       "picture": "images/products/1.jpg",
-      "color": "blue"
+      "color": "blue",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62ee06acb36f1604b37",
@@ -16,7 +17,8 @@
       "status": true,
       "price": "$1,702.91",
       "picture": "images/products/2.jpg",
-      "color": "green"
+      "color": "green",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62e4ac6290e06f0ccce",
@@ -25,7 +27,8 @@
       "status": true,
       "price": "$2,536.15",
       "picture": "images/products/3.jpg",
-      "color": "blue"
+      "color": "blue",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62e198814bb65677bec",
@@ -34,7 +37,8 @@
       "status": true,
       "price": "$2,984.83",
       "picture": "images/products/4.jpg",
-      "color": "green"
+      "color": "green",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62e9321121797a89781",
@@ -43,7 +47,8 @@
       "status": true,
       "price": "$3,214.24",
       "picture": "images/products/5.jpg",
-      "color": "brown"
+      "color": "brown",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62ee775e5c500ac5282",
@@ -52,7 +57,8 @@
       "status": true,
       "price": "$2,832.49",
       "picture": "images/products/6.jpg",
-      "color": "brown"
+      "color": "brown",
+      "link": "product_details.html"
     },
     {
       "_id": "5612f62e70be4693f3c4d2cd",
@@ -61,37 +67,66 @@
       "status": true,
       "price": "$3,318.21",
       "picture": "images/products/7.jpg",
-      "color": "brown"
+      "color": "brown",
+      "link": "product_details.html"
     }
   ],
   "categories": [
     {
       "_id": "5612f81ede7c12c5280252b2",
-      "category": "et fugiat"
+      "category": "et fugiat",
+      "sub-category": {
+        "name": "cameras",
+        "link": "product_details.html"
+      }
     },
     {
       "_id": "5612f81e648f5f0bc1649f6b",
-      "category": "ullamco occaecat"
+      "category": "ullamco occaecat",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     },
     {
       "_id": "5612f81ef5dec3eee304a159",
-      "category": "officia minim"
+      "category": "officia minim",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     },
     {
       "_id": "5612f81ee90e1ce3aca14444",
-      "category": "laboris ut"
+      "category": "laboris ut",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     },
     {
       "_id": "5612f81e1118ecc03df076ba",
-      "category": "consectetur nostrud"
+      "category": "consectetur nostrud",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     },
     {
       "_id": "5612f81e133ed21fd3f8a01a",
-      "category": "tempor proident"
+      "category": "tempor proident",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     },
     {
       "_id": "5612f81ee5aadf49fe4b0114",
-      "category": "anim ut"
+      "category": "anim ut",
+      "sub-categories": {
+        "categoryName": "cameras",
+        "categoryLink": "product_details.html"
+      }
     }
   ],
   "slider": [
@@ -99,31 +134,36 @@
       "_id": "5612fb419460cd606bb4d195",
       "title": "occaecat proident Lorem",
       "thumbnail_label": "In adipisicing cupidatat ullamco ut ad aliqua velit. Dolor laboris laboris laboris officia veniam est occaecat. Magna nostrud dolore irure pariatur id veniam laboris eu sunt nisi qui consequat proident.",
-      "picture": "images/carousel/1.png"
+      "picture": "images/carousel/1.png",
+      "link": "product_details.html"
     },
     {
       "_id": "5612fb41c57ce94e8d9cf40d",
       "title": "anim qui velit",
       "thumbnail_label": "Qui nulla id commodo sunt exercitation officia consectetur exercitation elit magna enim. Quis sunt nisi ad magna commodo ullamco labore. Aliquip ad Lorem incididunt occaecat cillum in qui dolor nulla.",
-      "picture": "images/carousel/2.png"
+      "picture": "images/carousel/2.png",
+      "link": "product_details.html"
     },
     {
       "_id": "5612fb41bcaecec6e9d4a589",
       "title": "et adipisicing aliqua",
       "thumbnail_label": "Qui excepteur aute duis aliquip quis et veniam labore minim culpa. Culpa occaecat aliquip id consequat ea ipsum consequat enim voluptate duis reprehenderit cillum qui velit. Eu id aute excepteur enim quis consectetur do minim deserunt esse irure laboris.",
-      "picture": "images/carousel/3.png"
+      "picture": "images/carousel/3.png",
+      "link": "product_details.html"
     },
     {
       "_id": "5612fb41ae5cdcc386e3d11f",
       "title": "sit id aliquip",
       "thumbnail_label": "Sunt nulla fugiat in adipisicing consequat mollit aliquip elit cupidatat. Elit exercitation sit fugiat aliquip enim nulla dolor exercitation nostrud nostrud. Est enim sunt dolor deserunt elit.",
-      "picture": "images/carousel/4.png"
+      "picture": "images/carousel/4.png",
+      "link": "product_details.html"
     },
     {
       "_id": "5612fb41a6945de1a9389ed1",
       "title": "adipisicing do id",
       "thumbnail_label": "Velit ipsum officia sit laborum eiusmod magna consectetur dolore et sit. Eiusmod occaecat do nostrud cillum aute pariatur commodo incididunt. Incididunt est Lorem in laborum adipisicing aute do veniam mollit.",
-      "picture": "images/carousel/5.png"
+      "picture": "images/carousel/5.png",
+      "link": "product_details.html"
     }
   ]
 }

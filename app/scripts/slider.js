@@ -4,9 +4,9 @@ $(document).ready(function(){
 	$('#myCarousel').carousel({
 	  interval: 4000
 	})
-	 $('#featured').carousel({
-	  interval: 4000
-	});
+	//  $('#featured').carousel({
+	//   interval: 4000
+	// });
 	
 	$('.subMenu > a').click(function(e)
 	{

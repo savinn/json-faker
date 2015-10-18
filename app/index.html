@@ -11,8 +11,14 @@
 	</head>
 
 
-<body ng-controller="mainController as myApp">
+<body ng-controller="test">
+
+
+
+	<div ng-controller="mainController as myApp">
 <div id="header">
+	{{test}}
+	{{mycart | json}}
 <div class="container-fluid">
 
 <!-- Navbar ================================================== -->
@@ -62,9 +68,13 @@
 	<script src="bower_components/angular/angular.min.js"></script>
      
 	<script src="scripts/app.js"></script>
+	<script src="scripts/services.js"></script>
+	<script src="scripts/controllers.js"></script>
+	<script src="scripts/directives.js"></script>
 	<script src="scripts/slider.js"></script>
    
 	
 	<!--  switcher section ============================================================================================= -->
+</div>
 </body>
 </html>
