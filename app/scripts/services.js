@@ -33,3 +33,4 @@ myFunctions.getCategoriesData = function(c){
   }
   return myFunctions;
 });
+

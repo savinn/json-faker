@@ -9,7 +9,7 @@
 					<a  href={{product.link}}><img ng-src="{{product.picture}}"   alt=""/></a>
 				<button type="button"
 						class="btn btn-primary"
-						ng-click="ngCart.addItem(id, name, price, q, data)">Add to basket</button>
+						ng-click="addToBasket(product)">Add to basket</button>
 
 						<mark  ng-show="inCart()">
         This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Remove</a>

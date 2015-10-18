@@ -75,7 +75,7 @@
     {
       "_id": "5612f81ede7c12c5280252b2",
       "category": "et fugiat",
-      "sub-category": {
+      "sub_category": {
         "name": "cameras",
         "link": "product_details.html"
       }
@@ -83,7 +83,7 @@
     {
       "_id": "5612f81e648f5f0bc1649f6b",
       "category": "ullamco occaecat",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }
@@ -91,7 +91,7 @@
     {
       "_id": "5612f81ef5dec3eee304a159",
       "category": "officia minim",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }
@@ -99,7 +99,7 @@
     {
       "_id": "5612f81ee90e1ce3aca14444",
       "category": "laboris ut",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }
@@ -107,7 +107,7 @@
     {
       "_id": "5612f81e1118ecc03df076ba",
       "category": "consectetur nostrud",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }
@@ -115,7 +115,7 @@
     {
       "_id": "5612f81e133ed21fd3f8a01a",
       "category": "tempor proident",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }
@@ -123,7 +123,7 @@
     {
       "_id": "5612f81ee5aadf49fe4b0114",
       "category": "anim ut",
-      "sub-categories": {
+      "sub_categories": {
         "categoryName": "cameras",
         "categoryLink": "product_details.html"
       }

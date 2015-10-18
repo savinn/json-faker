@@ -4,7 +4,7 @@
 				<a ng-click="item.showSubCategories = !item.showSubCategories">{{item.category}}</a>
 				
 				<ul ng-show="item.showSubCategories" class="category-sub-menu">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>{{item.category.sub-category.name}} </a></li>
+				<li ng-repeat="c in myCategories"><a href="products.html"><i class="icon-chevron-right"></i>{{c.sub_category.name}} </a></li>
 				</ul>
 		</ul>	
 		<br/>
