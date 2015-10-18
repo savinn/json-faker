@@ -2,6 +2,8 @@
 app.controller('mainController',function($scope,$http, dataService, appsettings){
 
     $scope.mycart = [];
+    $scope.quantity1 = 0;
+   
 
     dataService.getSliderData($scope);
     dataService.getProductsData($scope);
@@ -35,3 +37,4 @@ app.controller('test',function($scope,$http){
   $scope.test = 'test';
      
 });
+
