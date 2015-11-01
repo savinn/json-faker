@@ -21,9 +21,10 @@
     <ul id="topMenu" class="nav pull-right">
 	
 	 <li class="" >
-           	<span>{{test}}
-	               {{mycart | json}}
-	 	                <a href="cart.html"
+           	<span ng-repeat="oder in mycart">
+	               {{oder.title}}{{oder.q}}</span>
+
+	 	                <a ui-sref="shop.cart"
 						class="btn btn-primary">Check out</a>
 	 </li>
 	 

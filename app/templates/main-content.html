@@ -1,0 +1,37 @@
+<div class="span12">		
+			<h4>Latest Products </h4>
+
+          <div class="thumbnails">
+
+			<div ng-repeat="product in myProducts"
+				class="span4" ng-init="(product.q = 0)">
+				
+				<span>
+					<a  ui-sref="shop.product({'productId':454})"><img ng-src="{{product.picture}}"   alt=""/></a>
+				<button type="button"
+						class="btn btn-primary"
+						ng-click="addToBasket(product)">Add to basket</button>
+
+						
+				</span>
+                 <p>{{product.price}}</p>
+
+                 <div counter value="product.q" min="0"></div>
+
+                 <div ng-hide="product._id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true"></a>
+
+</div>
+			
+			  <h5 ng-click="productClick(product)">{{product.title}} </h5>
+			  <p ng-click="productClick(product)"><strong>{{product._id}}</strong></p>
+					  <p> 
+						{{product.description}} 
+					</p>
+					
+			</div>
+		</div>
+        </div>
+		</div>
+	</div>
+</div>

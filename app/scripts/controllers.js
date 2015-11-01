@@ -2,7 +2,7 @@
 app.controller('mainController',function($scope,$http, dataService, appsettings){
 
     $scope.mycart = [];
-    $scope.quantity1 = 0;
+    $scope.quantity = 0;
    
 
     dataService.getSliderData($scope);
@@ -29,12 +29,15 @@ app.controller('mainController',function($scope,$http, dataService, appsettings)
         $scope.mycart.push(item);
      }
       
-     
+     $scope.removeItem = function(item) {
+    $scope.items.splice(item,1);
+  };
 });
 
 app.controller('test',function($scope,$http){
 
   $scope.test = 'test';
+
      
 });
 

@@ -17,8 +17,12 @@
 
 
 
+
+
 	<div ng-controller="mainController as myApp">
 <div id="header">
+
+	<!-- place to include UI-router -->
 	
 <div class="container-fluid">
 
@@ -26,7 +30,7 @@
 <div ng-include="'header.html'"></div>
 <!-- Header End====================================================================== -->
 
-	<div id="myCarousel" class="carousel slide" >
+	<div id="myCarousel" class="carousel" >
 		<div class="carousel-inner">
 		  
 		
@@ -43,7 +47,7 @@
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	  </div>
-	  </div> 
+	  </div>  
 
 <div id="mainBody">
 	<div class="container-fluid">
@@ -52,10 +56,24 @@
 	<div ng-include="'sideBar.html'"></div>
 <!-- Sidebar end=============================================== -->
 
+<!-- UI-router draft start -->
+<div ui-view name="page"></div>
 
+<a ui-sref="shop.cart"
+  ui-sref-active="active">cart</a>
+<a ui-sref="shop.product({'productId':454})"
+	 ui-sref-active="active">product</a>
+<a ui-sref="shop.category({'categoryID':001})"
+	 ui-sref-active="active">category</a>
+<style type="text/css">
+a.active {
+color:red;
+}
+</style>
+<!-- UI-router end -->
 
 <!-- Main content=============================================== -->
-		<div ng-include="'main-content.html'"></div>
+		
 <!-- Main content end=============================================== -->
 <!-- Footer ================================================================== -->
 	<div ng-include="'footer.html'"></div>
@@ -67,8 +85,10 @@
 	<script src="scripts/google-code-prettify/prettify.js"></script>
 	
 	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
      
 	<script src="scripts/app.js"></script>
+	<script src="scripts/routes.js"></script>
 	<script src="scripts/services.js"></script>
 	<script src="scripts/controllers.js"></script>
 	<script src="scripts/directives.js"></script>

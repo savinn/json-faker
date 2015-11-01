@@ -1,38 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="myApp">
-  <head>
-    <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-<!-- Bootstrap style --> 
-    <link id="callCss" rel="stylesheet" href="css/bootstrap.min.css" media="screen"/>
-   
-<!-- Bootstrap style responsive -->	
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
-	
-  </head>
-<body ng-controller="mainController as myApp">
-<div id="header">
-<div class="container-fluid">
-
-<!-- Navbar ================================================== -->
-<div ng-include="'header.html'"></div>
 <!-- Header End====================================================================== -->
 <div id="mainBody">
 	<div class="container-fluid">
 	<div class="row">
 <!-- Sidebar ================================================== -->
-	<div ng-include="'sideBar.html'"></div>
+	
 <!-- Sidebar end=============================================== -->
 	<div class="span9">
-    <ul class="breadcrumb">
-    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-    <li><a href="products.html">Products</a> <span class="divider">/</span></li>
-    <li class="active">product Details</li>
-    </ul>	
+    
 	<div class="row">	  
 			<div id="gallery" class="span3">
             <a href="images/products/large/f1.jpg" title="Fujifilm FinePix S2950 Digital Camera">
@@ -128,39 +103,5 @@
 				Even at the longest zoom settings or in the most challenging of lighting conditions, the S2950 is able to produce crisp, clean results. With its mechanically stabilised 1/2 3", 14 megapixel CCD sensor, and high ISO sensitivity settings, Fujifilm's Dual Image Stabilisation technology combines to reduce the blurring effects of both hand-shake and subject movement to provide superb pictures.
 				</p>
               </div>
-		<div class="tab-pane fade" id="profile">
-		<div id="myTab" class="pull-right">
-		 <a href="#listView" data-toggle="tab"><span class="btn btn-large"><i class="icon-list"></i></span></a>
-		 <a href="#blockView" data-toggle="tab"><span class="btn btn-large btn-primary"><i class="icon-th-large"></i></span></a>
-		</div>
-		<br class="clr"/>
-		<hr class="soft"/>
-		
-				<br class="clr">
-					 </div>
-		</div>
-          </div>
-
-
-<!-- MainBody End ============================= -->
-<!-- Footer ================================================================== -->
-	<div ng-include="'footer.html'"></div>
 		
 
-<!-- Placed at the end of the document so the pages load faster ============================================= -->
-	
-	
-	<script src="bower_components/angular/angular.min.js"></script>
-     
-	<script src="scripts/app.js"></script>
-	<script src="scripts/services.js"></script>
-	<script src="scripts/controllers.js"></script>
-	<script src="scripts/directives.js"></script>
-	<script src="scripts/slider.js"></script>
-	
-    
-	
-	
-
-</body>
-</html>

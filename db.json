@@ -75,10 +75,33 @@
     {
       "_id": "5612f81ede7c12c5280252b2",
       "category": "et fugiat",
-      "sub_category": {
-        "name": "cameras",
-        "link": "product_details.html"
-      }
+      "sub_category": [
+        {
+          "_id": "5625005fd75ddc0d46668276",
+          "name": "words is not defined",
+          "link": "category.html"
+        },
+        {
+          "_id": "5625005fd130e0f0b17f63d8",
+          "name": "words is not defined",
+          "link": "category.html"
+        },
+        {
+          "_id": "5625005fb5c3d390b71583b3",
+          "name": "words is not defined",
+          "link": "category.html"
+        },
+        {
+          "_id": "5625005fa6a2bdf45cd8f597",
+          "name": "words is not defined",
+          "link": "category.html"
+        },
+        {
+          "_id": "5625005fe935d03fac6c6f32",
+          "name": "words is not defined",
+          "link": "category.html"
+        }
+      ]
     },
     {
       "_id": "5612f81e648f5f0bc1649f6b",

@@ -15,7 +15,9 @@ app.directive('mainContent', function() {
 app.directive('counter', function() {
     return {
         restrict: 'A',
-        scope: { value: '=value' },
+        scope: { 
+          value: '=value'
+        },
         template: '<a href="javascript:;" class="counter-minus" ng-click="minus()">-</a>\
                   <input type="text" class="counter-field" ng-model="value" ng-change="changed()" ng-readonly="readonly">\
                   <a  href="javascript:;" class="counter-plus" ng-click="plus()">+</a>',
