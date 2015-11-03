@@ -29,9 +29,16 @@ app.controller('mainController',function($scope,$http, dataService, appsettings)
         $scope.mycart.push(item);
      }
       
-     $scope.removeItem = function(item) {
-    $scope.items.splice(item,1);
-  };
+     $scope.removeItem = function(index) {
+    $scope.mycart.splice(index,1);
+  },
+  $scope.total = function(){
+      var total = 0;
+      angular.forEach($scope.mycart, function(item){
+        total += item.q * item.price;
+      })
+         return total;
+  }
 });
 
 app.controller('test',function($scope,$http){
