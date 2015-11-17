@@ -1,0 +1,10 @@
+ - read about $scope.$watch
+ - db json - remove currency
+ - if cart is empty - show 'empty cart'
+ - format cart on page correctly
+ - clear product quantity after adding to basket
+
+ ==
+
+ - prepare directives
+ - filters - for products

@@ -18,16 +18,19 @@
 		</select> 
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
-    <ul id="topMenu" class="nav pull-right">
+    <div id="topMenu" class="nav pull-right">
 	
-	 <li class="" >
+	<span ng-hide="mycart.length > 0">
+    Cart is empty
+  </span>
+
            	<span ng-repeat="oder in mycart">
 	               {{oder.title}}{{oder.q}}</span>
 
 	 	                <a ui-sref="shop.cart"
 						class="btn btn-primary"
-						  >Check out</a>
-	 </li>
+						  ng-show="mycart.length > 0">Check out</a>
+	
 	 
 	
 	<!-- <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>   
@@ -54,8 +57,7 @@
 			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 		  </div>!-->
 	</div>
-	</li>
-    </ul>
+	
   </div>
 </div>
 </div>

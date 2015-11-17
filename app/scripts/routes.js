@@ -18,7 +18,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: "/cart",
       views : {
         "page@" : {
-          // controller : 'vocAddCtrl',
+           controller : 'cartCtrl',
            templateUrl: 'templates/cart.html'
           //template: '<h2>shop.cart</h2>'
         }
@@ -37,6 +37,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: "/category/{categoryID}",
       views : {
         "page@" : {
+          controller : 'mainController',
            templateUrl: 'templates/main-content.html'
         }
       }

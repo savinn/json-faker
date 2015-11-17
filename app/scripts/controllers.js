@@ -1,14 +1,20 @@
 
-app.controller('mainController',function($scope,$http, dataService, appsettings){
+app.controller('mainController',function($scope, $rootScope, $http, dataService, appsettings){
 
-    $scope.mycart = [];
+    if(!$rootScope.mycart) {
+      $rootScope.mycart = []
+    }
+    $scope.mycart = $rootScope.mycart;
+    
     $scope.quantity = 0;
    
+   $scope.test = 'mainController';
 
     dataService.getSliderData($scope);
     dataService.getProductsData($scope);
     dataService.getCategoriesData($scope);
      
+     $scope.cartTotal = 0;
 
      $scope.productClick = function(item){
         document.location = item.picture;
@@ -17,8 +23,8 @@ app.controller('mainController',function($scope,$http, dataService, appsettings)
      $scope.addToBasket = function(item){
         //1 - add service to save data
           var tmp = {};
-          tmp.color = item.color;
-          tmp.id = item._id;
+        
+         
 
           $http.post(appsettings.apiurl + 'addtocart', tmp)
          .success(function(data){
@@ -26,24 +32,43 @@ app.controller('mainController',function($scope,$http, dataService, appsettings)
          });
 
         //2 - update user UI
-        $scope.mycart.push(item);
+        $rootScope.mycart.push(item);
+        
      }
-      
-     $scope.removeItem = function(index) {
-    $scope.mycart.splice(index,1);
-  },
-  $scope.total = function(){
-      var total = 0;
-      angular.forEach($scope.mycart, function(item){
-        total += item.q * item.price;
-      })
-         return total;
-  }
+
+
 });
 
-app.controller('test',function($scope,$http){
 
-  $scope.test = 'test';
+
+app.controller('cartCtrl',function($scope, $rootScope, $http){
+
+  $scope.test = 'cartCtrl';
+
+     $scope.removeItem = function(index) {
+    $rootScope.mycart.splice(index,1);
+  };
+
+
+   $scope.total = function(){
+      var total = 0;
+      angular.forEach($rootScope.mycart, function(item){
+        total += item.q * item.price;
+      })
+      $scope.cartTotal = total;
+  }
+
+    $scope.total();
+
+     
+});
+
+
+
+
+app.controller('rootController',function($scope,$http){
+
+  
 
      
 });

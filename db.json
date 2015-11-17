@@ -5,7 +5,7 @@
       "title": "ullamco cupidatat title",
       "description": "Id ea sunt aute qui ad title aliqua pariatur dolore aliqua.",
       "status": false,
-      "price": "$2,660.93",
+      "price": "2660.93",
       "picture": "images/products/1.jpg",
       "color": "blue",
       "link": "product_details.html"
@@ -15,7 +15,7 @@
       "title": "laborum veniam consectetur",
       "description": "Velit do elit occaecat magna deserunt consequat mollit laborum culpa veniam occaecat.",
       "status": true,
-      "price": "$1,702.91",
+      "price": "1702.91",
       "picture": "images/products/2.jpg",
       "color": "green",
       "link": "product_details.html"
@@ -25,7 +25,7 @@
       "title": "occaecat fugiat adipisicing",
       "description": "Duis consequat sit ex eiusmod sunt eiusmod nisi cillum mollit aliqua.",
       "status": true,
-      "price": "$2,536.15",
+      "price": "2536.15",
       "picture": "images/products/3.jpg",
       "color": "blue",
       "link": "product_details.html"
@@ -35,7 +35,7 @@
       "title": "enim qui reprehenderit",
       "description": "Ut proident amet magna excepteur occaecat veniam nulla sit.",
       "status": true,
-      "price": "$2,984.83",
+      "price": "2984.83",
       "picture": "images/products/4.jpg",
       "color": "green",
       "link": "product_details.html"
@@ -45,7 +45,7 @@
       "title": "consequat esse aliqua",
       "description": "Ea adipisicing nulla sunt ipsum.",
       "status": true,
-      "price": "$3,214.24",
+      "price": "3214.24",
       "picture": "images/products/5.jpg",
       "color": "brown",
       "link": "product_details.html"
@@ -55,7 +55,7 @@
       "title": "elit laboris irure",
       "description": "Magna excepteur occaecat id in veniam aliqua qui elit do ea consequat.",
       "status": true,
-      "price": "$2,832.49",
+      "price": "2832.49",
       "picture": "images/products/6.jpg",
       "color": "brown",
       "link": "product_details.html"
@@ -65,7 +65,7 @@
       "title": "nisi nisi irure",
       "description": "Pariatur enim deserunt adipisicing est duis proident ad minim cupidatat anim deserunt.",
       "status": true,
-      "price": "$3,318.21",
+      "price": "3318.21",
       "picture": "images/products/7.jpg",
       "color": "brown",
       "link": "product_details.html"
